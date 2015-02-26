@@ -1,0 +1,1907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LEE-YOGA</Machine>
+    <WindowsUser>Lee</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>com.phonegap.helloworld</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Lee\testingApp\platforms\windows\build\windows80\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Lee\testingApp\platforms\windows\build\windows80\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\icon.png">
+      <PackagePath>www\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\android\icon-36-ldpi.png">
+      <PackagePath>www\res\icon\android\icon-36-ldpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\android\icon-48-mdpi.png">
+      <PackagePath>www\res\icon\android\icon-48-mdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\android\icon-72-hdpi.png">
+      <PackagePath>www\res\icon\android\icon-72-hdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\android\icon-96-xhdpi.png">
+      <PackagePath>www\res\icon\android\icon-96-xhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\bada-wac\icon-48-type5.png">
+      <PackagePath>www\res\icon\bada-wac\icon-48-type5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\bada-wac\icon-50-type3.png">
+      <PackagePath>www\res\icon\bada-wac\icon-50-type3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\bada-wac\icon-80-type4.png">
+      <PackagePath>www\res\icon\bada-wac\icon-80-type4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\bada\icon-128.png">
+      <PackagePath>www\res\icon\bada\icon-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\blackberry\icon-80.png">
+      <PackagePath>www\res\icon\blackberry\icon-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\ios\icon-57-2x.png">
+      <PackagePath>www\res\icon\ios\icon-57-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\ios\icon-57.png">
+      <PackagePath>www\res\icon\ios\icon-57.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\ios\icon-72-2x.png">
+      <PackagePath>www\res\icon\ios\icon-72-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\ios\icon-72.png">
+      <PackagePath>www\res\icon\ios\icon-72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\tizen\icon-128.png">
+      <PackagePath>www\res\icon\tizen\icon-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\webos\icon-64.png">
+      <PackagePath>www\res\icon\webos\icon-64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\windows-phone\icon-173-tile.png">
+      <PackagePath>www\res\icon\windows-phone\icon-173-tile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\windows-phone\icon-48.png">
+      <PackagePath>www\res\icon\windows-phone\icon-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\icon\windows-phone\icon-62-tile.png">
+      <PackagePath>www\res\icon\windows-phone\icon-62-tile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-hdpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-hdpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-hdpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-hdpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-ldpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-ldpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-ldpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-ldpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-mdpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-mdpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-mdpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-mdpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-xhdpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-xhdpi-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\android\screen-xhdpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-xhdpi-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\bada-wac\screen-type3.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\bada-wac\screen-type4.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\bada-wac\screen-type5.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\bada\screen-portrait.png">
+      <PackagePath>www\res\screen\bada\screen-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\blackberry\screen-225.png">
+      <PackagePath>www\res\screen\blackberry\screen-225.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-ipad-landscape-2x.png">
+      <PackagePath>www\res\screen\ios\screen-ipad-landscape-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-ipad-landscape.png">
+      <PackagePath>www\res\screen\ios\screen-ipad-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-ipad-portrait-2x.png">
+      <PackagePath>www\res\screen\ios\screen-ipad-portrait-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-ipad-portrait.png">
+      <PackagePath>www\res\screen\ios\screen-ipad-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-iphone-landscape-2x.png">
+      <PackagePath>www\res\screen\ios\screen-iphone-landscape-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-iphone-landscape.png">
+      <PackagePath>www\res\screen\ios\screen-iphone-landscape.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-iphone-portrait-2x.png">
+      <PackagePath>www\res\screen\ios\screen-iphone-portrait-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-iphone-portrait-568h-2x.png">
+      <PackagePath>www\res\screen\ios\screen-iphone-portrait-568h-2x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\ios\screen-iphone-portrait.png">
+      <PackagePath>www\res\screen\ios\screen-iphone-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\webos\screen-64.png">
+      <PackagePath>www\res\screen\webos\screen-64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\.bower.json">
+      <PackagePath>www\bower_components\angular-animate\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\bower.json">
+      <PackagePath>www\bower_components\angular-animate\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\package.json">
+      <PackagePath>www\bower_components\angular-animate\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\.bower.json">
+      <PackagePath>www\bower_components\angular-aria\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\bower.json">
+      <PackagePath>www\bower_components\angular-aria\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\package.json">
+      <PackagePath>www\bower_components\angular-aria\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\.bower.json">
+      <PackagePath>www\bower_components\angular-material\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\bower.json">
+      <PackagePath>www\bower_components\angular-material\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\backdrop\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\backdrop\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\bottomSheet\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\bottomSheet\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\button\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\button\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\card\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\card\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\checkbox\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\checkbox\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\content\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\content\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\core\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\core\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\dialog\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\dialog\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\divider\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\divider\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\icon\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\icon\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\input\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\input\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\list\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\list\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\menu\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\menu\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressCircular\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressCircular\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressLinear\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressLinear\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\radioButton\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\radioButton\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sidenav\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\sidenav\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\slider\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\slider\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sticky\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\sticky\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\subheader\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\subheader\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\swipe\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\swipe\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\switch\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\switch\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tabs\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\tabs\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\textField\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\textField\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toast\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\toast\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toolbar\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\toolbar\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tooltip\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\tooltip\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\whiteframe\bower.json">
+      <PackagePath>www\bower_components\angular-material\modules\js\whiteframe\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\.bower.json">
+      <PackagePath>www\bower_components\angular-route\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\bower.json">
+      <PackagePath>www\bower_components\angular-route\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\package.json">
+      <PackagePath>www\bower_components\angular-route\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\.bower.json">
+      <PackagePath>www\bower_components\angular\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\bower.json">
+      <PackagePath>www\bower_components\angular\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\package.json">
+      <PackagePath>www\bower_components\angular\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\.bower.json">
+      <PackagePath>www\bower_components\bootstrap\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\bower.json">
+      <PackagePath>www\bower_components\bootstrap\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\grunt\configBridge.json">
+      <PackagePath>www\bower_components\bootstrap\grunt\configBridge.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\.csscomb.json">
+      <PackagePath>www\bower_components\bootstrap\less\.csscomb.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\package.json">
+      <PackagePath>www\bower_components\bootstrap\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\.bower.json">
+      <PackagePath>www\bower_components\fontawesome\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\bower.json">
+      <PackagePath>www\bower_components\fontawesome\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\.bower.json">
+      <PackagePath>www\bower_components\jquery\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\bower.json">
+      <PackagePath>www\bower_components\jquery\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\material-app\.bower.json">
+      <PackagePath>www\bower_components\material-app\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\material-app\bower.json">
+      <PackagePath>www\bower_components\material-app\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\angular-animate.js">
+      <PackagePath>www\bower_components\angular-animate\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\angular-animate.min.js">
+      <PackagePath>www\bower_components\angular-animate\angular-animate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\index.js">
+      <PackagePath>www\bower_components\angular-animate\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\angular-aria.js">
+      <PackagePath>www\bower_components\angular-aria\angular-aria.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\angular-aria.min.js">
+      <PackagePath>www\bower_components\angular-aria\angular-aria.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\index.js">
+      <PackagePath>www\bower_components\angular-aria\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\angular-material.js">
+      <PackagePath>www\bower_components\angular-material\angular-material.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\angular-material.min.js">
+      <PackagePath>www\bower_components\angular-material\angular-material.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\backdrop\backdrop.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\backdrop\backdrop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\bottomSheet\bottomSheet.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\bottomSheet\bottomSheet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\button\button.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\button\button.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\card\card.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\card\card.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\checkbox\checkbox.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\checkbox\checkbox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\content\content.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\content\content.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\core\core.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\core\core.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\core\default-theme.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\core\default-theme.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\dialog\dialog.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\dialog\dialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\divider\divider.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\divider\divider.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\icon\icon.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\icon\icon.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\input\input.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\input\input.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\list\list.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\list\list.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\menu\menu.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\menu\menu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\progressCircular\progressCircular.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\progressCircular\progressCircular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\progressLinear\progressLinear.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\progressLinear\progressLinear.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\radioButton\radioButton.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\radioButton\radioButton.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\sidenav\sidenav.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\sidenav\sidenav.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\slider\slider.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\slider\slider.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\sticky\sticky.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\sticky\sticky.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\subheader\subheader.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\subheader\subheader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\swipe\swipe.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\swipe\swipe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\switch\switch.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\switch\switch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\tabs\tabs.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\tabs\tabs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\textField\textField.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\textField\textField.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\toast\toast.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\toast\toast.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\toolbar\toolbar.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\toolbar\toolbar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\tooltip\tooltip.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\tooltip\tooltip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\whiteframe\whiteframe.js">
+      <PackagePath>www\bower_components\angular-material\modules\closure\whiteframe\whiteframe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\backdrop\backdrop.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\backdrop\backdrop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\backdrop\backdrop.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\backdrop\backdrop.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\button\button.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\button\button.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\button\button.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\button\button.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\card\card.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\card\card.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\card\card.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\card\card.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\checkbox\checkbox.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\checkbox\checkbox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\checkbox\checkbox.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\checkbox\checkbox.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\content\content.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\content\content.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\content\content.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\content\content.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\core\core.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\core\core.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\core\core.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\core\core.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\core\default-theme.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\core\default-theme.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\dialog\dialog.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\dialog\dialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\dialog\dialog.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\dialog\dialog.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\divider\divider.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\divider\divider.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\divider\divider.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\divider\divider.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\icon\icon.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\icon\icon.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\icon\icon.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\icon\icon.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\input\input.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\input\input.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\input\input.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\input\input.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\list\list.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\list\list.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\list\list.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\list\list.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\menu\menu.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\menu\menu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\menu\menu.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\menu\menu.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressCircular\progressCircular.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressCircular\progressCircular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressCircular\progressCircular.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressCircular\progressCircular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressLinear\progressLinear.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressLinear\progressLinear.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressLinear\progressLinear.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressLinear\progressLinear.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\radioButton\radioButton.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\radioButton\radioButton.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\radioButton\radioButton.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\radioButton\radioButton.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sidenav\sidenav.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\sidenav\sidenav.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sidenav\sidenav.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\sidenav\sidenav.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\slider\slider.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\slider\slider.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\slider\slider.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\slider\slider.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sticky\sticky.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\sticky\sticky.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sticky\sticky.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\sticky\sticky.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\subheader\subheader.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\subheader\subheader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\subheader\subheader.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\subheader\subheader.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\swipe\swipe.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\swipe\swipe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\swipe\swipe.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\swipe\swipe.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\switch\switch.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\switch\switch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\switch\switch.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\switch\switch.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tabs\tabs.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\tabs\tabs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tabs\tabs.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\tabs\tabs.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\textField\textField.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\textField\textField.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\textField\textField.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\textField\textField.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toast\toast.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\toast\toast.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toast\toast.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\toast\toast.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toolbar\toolbar.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\toolbar\toolbar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toolbar\toolbar.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\toolbar\toolbar.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tooltip\tooltip.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\tooltip\tooltip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tooltip\tooltip.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\tooltip\tooltip.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\whiteframe\whiteframe.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\whiteframe\whiteframe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\whiteframe\whiteframe.min.js">
+      <PackagePath>www\bower_components\angular-material\modules\js\whiteframe\whiteframe.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\angular-route.js">
+      <PackagePath>www\bower_components\angular-route\angular-route.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\angular-route.min.js">
+      <PackagePath>www\bower_components\angular-route\angular-route.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\index.js">
+      <PackagePath>www\bower_components\angular-route\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\angular.js">
+      <PackagePath>www\bower_components\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\angular.min.js">
+      <PackagePath>www\bower_components\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\index.js">
+      <PackagePath>www\bower_components\angular\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\js\bootstrap.js">
+      <PackagePath>www\bower_components\bootstrap\dist\js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\js\bootstrap.min.js">
+      <PackagePath>www\bower_components\bootstrap\dist\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\js\npm.js">
+      <PackagePath>www\bower_components\bootstrap\dist\js\npm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\Gruntfile.js">
+      <PackagePath>www\bower_components\bootstrap\Gruntfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\grunt\bs-commonjs-generator.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-commonjs-generator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\grunt\bs-lessdoc-parser.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-lessdoc-parser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\grunt\bs-raw-files-generator.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-raw-files-generator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\affix.js">
+      <PackagePath>www\bower_components\bootstrap\js\affix.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\alert.js">
+      <PackagePath>www\bower_components\bootstrap\js\alert.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\button.js">
+      <PackagePath>www\bower_components\bootstrap\js\button.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\carousel.js">
+      <PackagePath>www\bower_components\bootstrap\js\carousel.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\collapse.js">
+      <PackagePath>www\bower_components\bootstrap\js\collapse.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\dropdown.js">
+      <PackagePath>www\bower_components\bootstrap\js\dropdown.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\modal.js">
+      <PackagePath>www\bower_components\bootstrap\js\modal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\popover.js">
+      <PackagePath>www\bower_components\bootstrap\js\popover.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\scrollspy.js">
+      <PackagePath>www\bower_components\bootstrap\js\scrollspy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\tab.js">
+      <PackagePath>www\bower_components\bootstrap\js\tab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\tooltip.js">
+      <PackagePath>www\bower_components\bootstrap\js\tooltip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\transition.js">
+      <PackagePath>www\bower_components\bootstrap\js\transition.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\dist\jquery.js">
+      <PackagePath>www\bower_components\jquery\dist\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\dist\jquery.min.js">
+      <PackagePath>www\bower_components\jquery\dist\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax.js">
+      <PackagePath>www\bower_components\jquery\src\ajax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\jsonp.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\jsonp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\load.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\load.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\parseJSON.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\parseJSON.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\parseXML.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\parseXML.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\script.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\var\nonce.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\var\nonce.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\var\rquery.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\var\rquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\ajax\xhr.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\xhr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\attributes.js">
+      <PackagePath>www\bower_components\jquery\src\attributes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\attributes\attr.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\attr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\attributes\classes.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\classes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\attributes\prop.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\prop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\attributes\support.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\attributes\val.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\val.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\callbacks.js">
+      <PackagePath>www\bower_components\jquery\src\callbacks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\core.js">
+      <PackagePath>www\bower_components\jquery\src\core.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\core\access.js">
+      <PackagePath>www\bower_components\jquery\src\core\access.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\core\init.js">
+      <PackagePath>www\bower_components\jquery\src\core\init.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\core\parseHTML.js">
+      <PackagePath>www\bower_components\jquery\src\core\parseHTML.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\core\ready.js">
+      <PackagePath>www\bower_components\jquery\src\core\ready.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\core\var\rsingleTag.js">
+      <PackagePath>www\bower_components\jquery\src\core\var\rsingleTag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css.js">
+      <PackagePath>www\bower_components\jquery\src\css.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\addGetHookIf.js">
+      <PackagePath>www\bower_components\jquery\src\css\addGetHookIf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\curCSS.js">
+      <PackagePath>www\bower_components\jquery\src\css\curCSS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\defaultDisplay.js">
+      <PackagePath>www\bower_components\jquery\src\css\defaultDisplay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\hiddenVisibleSelectors.js">
+      <PackagePath>www\bower_components\jquery\src\css\hiddenVisibleSelectors.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\support.js">
+      <PackagePath>www\bower_components\jquery\src\css\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\swap.js">
+      <PackagePath>www\bower_components\jquery\src\css\swap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\var\cssExpand.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\cssExpand.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\var\getStyles.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\getStyles.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\var\isHidden.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\isHidden.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\var\rmargin.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\rmargin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\css\var\rnumnonpx.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\rnumnonpx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\data.js">
+      <PackagePath>www\bower_components\jquery\src\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\data\accepts.js">
+      <PackagePath>www\bower_components\jquery\src\data\accepts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\data\Data.js">
+      <PackagePath>www\bower_components\jquery\src\data\Data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\data\var\data_priv.js">
+      <PackagePath>www\bower_components\jquery\src\data\var\data_priv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\data\var\data_user.js">
+      <PackagePath>www\bower_components\jquery\src\data\var\data_user.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\deferred.js">
+      <PackagePath>www\bower_components\jquery\src\deferred.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\deprecated.js">
+      <PackagePath>www\bower_components\jquery\src\deprecated.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\dimensions.js">
+      <PackagePath>www\bower_components\jquery\src\dimensions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\effects.js">
+      <PackagePath>www\bower_components\jquery\src\effects.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\effects\animatedSelector.js">
+      <PackagePath>www\bower_components\jquery\src\effects\animatedSelector.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\effects\Tween.js">
+      <PackagePath>www\bower_components\jquery\src\effects\Tween.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\event.js">
+      <PackagePath>www\bower_components\jquery\src\event.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\event\ajax.js">
+      <PackagePath>www\bower_components\jquery\src\event\ajax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\event\alias.js">
+      <PackagePath>www\bower_components\jquery\src\event\alias.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\event\support.js">
+      <PackagePath>www\bower_components\jquery\src\event\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\exports\amd.js">
+      <PackagePath>www\bower_components\jquery\src\exports\amd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\exports\global.js">
+      <PackagePath>www\bower_components\jquery\src\exports\global.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\intro.js">
+      <PackagePath>www\bower_components\jquery\src\intro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\jquery.js">
+      <PackagePath>www\bower_components\jquery\src\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\manipulation.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\manipulation\support.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\manipulation\var\rcheckableType.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation\var\rcheckableType.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\manipulation\_evalUrl.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation\_evalUrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\offset.js">
+      <PackagePath>www\bower_components\jquery\src\offset.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\outro.js">
+      <PackagePath>www\bower_components\jquery\src\outro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\queue.js">
+      <PackagePath>www\bower_components\jquery\src\queue.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\queue\delay.js">
+      <PackagePath>www\bower_components\jquery\src\queue\delay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\selector-native.js">
+      <PackagePath>www\bower_components\jquery\src\selector-native.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\selector-sizzle.js">
+      <PackagePath>www\bower_components\jquery\src\selector-sizzle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\selector.js">
+      <PackagePath>www\bower_components\jquery\src\selector.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\serialize.js">
+      <PackagePath>www\bower_components\jquery\src\serialize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\sizzle\dist\sizzle.js">
+      <PackagePath>www\bower_components\jquery\src\sizzle\dist\sizzle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\sizzle\dist\sizzle.min.js">
+      <PackagePath>www\bower_components\jquery\src\sizzle\dist\sizzle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\traversing.js">
+      <PackagePath>www\bower_components\jquery\src\traversing.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\traversing\findFilter.js">
+      <PackagePath>www\bower_components\jquery\src\traversing\findFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\traversing\var\rneedsContext.js">
+      <PackagePath>www\bower_components\jquery\src\traversing\var\rneedsContext.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\arr.js">
+      <PackagePath>www\bower_components\jquery\src\var\arr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\class2type.js">
+      <PackagePath>www\bower_components\jquery\src\var\class2type.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\concat.js">
+      <PackagePath>www\bower_components\jquery\src\var\concat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\hasOwn.js">
+      <PackagePath>www\bower_components\jquery\src\var\hasOwn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\indexOf.js">
+      <PackagePath>www\bower_components\jquery\src\var\indexOf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\pnum.js">
+      <PackagePath>www\bower_components\jquery\src\var\pnum.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\push.js">
+      <PackagePath>www\bower_components\jquery\src\var\push.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\rnotwhite.js">
+      <PackagePath>www\bower_components\jquery\src\var\rnotwhite.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\slice.js">
+      <PackagePath>www\bower_components\jquery\src\var\slice.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\strundefined.js">
+      <PackagePath>www\bower_components\jquery\src\var\strundefined.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\support.js">
+      <PackagePath>www\bower_components\jquery\src\var\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\var\toString.js">
+      <PackagePath>www\bower_components\jquery\src\var\toString.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\wrap.js">
+      <PackagePath>www\bower_components\jquery\src\wrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\material-app\src\material-app.js">
+      <PackagePath>www\bower_components\material-app\src\material-app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\spec\helper.js">
+      <PackagePath>www\spec\helper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\spec\index.js">
+      <PackagePath>www\spec\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\spec\lib\jasmine-1.2.0\jasmine-html.js">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\jasmine-html.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\spec\lib\jasmine-1.2.0\jasmine.js">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\jasmine.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\angular-animate.min.js.map">
+      <PackagePath>www\bower_components\angular-animate\angular-animate.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\angular-aria.min.js.map">
+      <PackagePath>www\bower_components\angular-aria\angular-aria.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\angular-route.min.js.map">
+      <PackagePath>www\bower_components\angular-route\angular-route.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\angular.min.js.map">
+      <PackagePath>www\bower_components\angular\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap-theme.css.map">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap-theme.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap.css.map">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\css\font-awesome.css.map">
+      <PackagePath>www\bower_components\fontawesome\css\font-awesome.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\dist\jquery.min.map">
+      <PackagePath>www\bower_components\jquery\dist\jquery.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\src\sizzle\dist\sizzle.min.map">
+      <PackagePath>www\bower_components\jquery\src\sizzle\dist\sizzle.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-animate\README.md">
+      <PackagePath>www\bower_components\angular-animate\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-aria\README.md">
+      <PackagePath>www\bower_components\angular-aria\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\README.md">
+      <PackagePath>www\bower_components\angular-material\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-route\README.md">
+      <PackagePath>www\bower_components\angular-route\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\README.md">
+      <PackagePath>www\bower_components\angular\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\README.md">
+      <PackagePath>www\bower_components\bootstrap\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\material-app\README.md">
+      <PackagePath>www\bower_components\material-app\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\tizen\README.md">
+      <PackagePath>www\res\screen\tizen\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\angular-material.css">
+      <PackagePath>www\bower_components\angular-material\angular-material.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\angular-material.min.css">
+      <PackagePath>www\bower_components\angular-material\angular-material.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\default-theme.css">
+      <PackagePath>www\bower_components\angular-material\default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\backdrop\backdrop-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\backdrop\backdrop-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\backdrop\backdrop.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\backdrop\backdrop.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\bottomSheet\bottomSheet-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\bottomSheet\bottomSheet-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\bottomSheet\bottomSheet.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\bottomSheet\bottomSheet.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\button\button-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\button\button-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\button\button.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\button\button.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\card\card-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\card\card-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\card\card.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\card\card.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\checkbox\checkbox-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\checkbox\checkbox-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\checkbox\checkbox.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\checkbox\checkbox.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\content\content-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\content\content-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\content\content.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\content\content.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\core\core.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\core\core.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\dialog\dialog-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\dialog\dialog-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\dialog\dialog.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\dialog\dialog.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\divider\divider-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\divider\divider-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\divider\divider.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\divider\divider.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\icon\icon.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\icon\icon.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\input\input-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\input\input-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\input\input.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\input\input.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\list\list.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\list\list.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\menu\menu.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\menu\menu.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\progressCircular\progressCircular-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\progressCircular\progressCircular-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\progressCircular\progressCircular.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\progressCircular\progressCircular.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\progressLinear\progressLinear-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\progressLinear\progressLinear-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\progressLinear\progressLinear.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\progressLinear\progressLinear.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\radioButton\radioButton-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\radioButton\radioButton-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\radioButton\radioButton.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\radioButton\radioButton.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\sidenav\sidenav-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\sidenav\sidenav-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\sidenav\sidenav.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\sidenav\sidenav.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\slider\slider-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\slider\slider-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\slider\slider.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\slider\slider.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\sticky\sticky.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\sticky\sticky.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\subheader\subheader-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\subheader\subheader-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\subheader\subheader.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\subheader\subheader.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\switch\switch-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\switch\switch-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\switch\switch.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\switch\switch.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\tabs\tabs-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\tabs\tabs-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\tabs\tabs.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\tabs\tabs.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\textField\textField-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\textField\textField-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\textField\textField.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\textField\textField.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\toast\toast-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\toast\toast-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\toast\toast.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\toast\toast.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\toolbar\toolbar-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\toolbar\toolbar-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\toolbar\toolbar.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\toolbar\toolbar.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\tooltip\tooltip-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\tooltip\tooltip-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\tooltip\tooltip.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\tooltip\tooltip.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\closure\whiteframe\whiteframe.css">
+      <PackagePath>www\bower_components\angular-material\modules\closure\whiteframe\whiteframe.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\css\angular-material-layout.css">
+      <PackagePath>www\bower_components\angular-material\modules\css\angular-material-layout.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\backdrop\backdrop-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\backdrop\backdrop-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\backdrop\backdrop-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\backdrop\backdrop-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\backdrop\backdrop.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\backdrop\backdrop.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\backdrop\backdrop.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\backdrop\backdrop.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\bottomSheet\bottomSheet.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\button\button-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\button\button-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\button\button-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\button\button-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\button\button.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\button\button.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\button\button.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\button\button.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\card\card-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\card\card-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\card\card-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\card\card-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\card\card.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\card\card.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\card\card.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\card\card.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\checkbox\checkbox-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\checkbox\checkbox-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\checkbox\checkbox-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\checkbox\checkbox-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\checkbox\checkbox.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\checkbox\checkbox.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\checkbox\checkbox.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\checkbox\checkbox.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\content\content-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\content\content-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\content\content-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\content\content-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\content\content.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\content\content.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\content\content.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\content\content.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\core\core.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\core\core.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\core\core.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\core\core.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\dialog\dialog-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\dialog\dialog-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\dialog\dialog-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\dialog\dialog-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\dialog\dialog.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\dialog\dialog.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\dialog\dialog.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\dialog\dialog.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\divider\divider-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\divider\divider-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\divider\divider-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\divider\divider-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\divider\divider.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\divider\divider.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\divider\divider.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\divider\divider.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\icon\icon.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\icon\icon.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\icon\icon.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\icon\icon.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\input\input-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\input\input-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\input\input-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\input\input-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\input\input.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\input\input.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\input\input.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\input\input.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\list\list.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\list\list.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\list\list.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\list\list.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\menu\menu.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\menu\menu.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\menu\menu.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\menu\menu.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressCircular\progressCircular-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressCircular\progressCircular-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressCircular\progressCircular-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressCircular\progressCircular-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressCircular\progressCircular.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressCircular\progressCircular.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressCircular\progressCircular.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressCircular\progressCircular.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressLinear\progressLinear-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressLinear\progressLinear-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressLinear\progressLinear-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressLinear\progressLinear-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressLinear\progressLinear.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressLinear\progressLinear.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\progressLinear\progressLinear.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\progressLinear\progressLinear.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\radioButton\radioButton-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\radioButton\radioButton-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\radioButton\radioButton-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\radioButton\radioButton-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\radioButton\radioButton.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\radioButton\radioButton.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\radioButton\radioButton.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\radioButton\radioButton.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sidenav\sidenav-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\sidenav\sidenav-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sidenav\sidenav-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\sidenav\sidenav-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sidenav\sidenav.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\sidenav\sidenav.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sidenav\sidenav.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\sidenav\sidenav.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\slider\slider-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\slider\slider-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\slider\slider-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\slider\slider-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\slider\slider.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\slider\slider.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\slider\slider.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\slider\slider.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sticky\sticky.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\sticky\sticky.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\sticky\sticky.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\sticky\sticky.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\subheader\subheader-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\subheader\subheader-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\subheader\subheader-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\subheader\subheader-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\subheader\subheader.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\subheader\subheader.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\subheader\subheader.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\subheader\subheader.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\switch\switch-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\switch\switch-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\switch\switch-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\switch\switch-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\switch\switch.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\switch\switch.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\switch\switch.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\switch\switch.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tabs\tabs-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tabs\tabs-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tabs\tabs-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tabs\tabs-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tabs\tabs.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tabs\tabs.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tabs\tabs.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tabs\tabs.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\textField\textField-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\textField\textField-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\textField\textField-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\textField\textField-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\textField\textField.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\textField\textField.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\textField\textField.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\textField\textField.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toast\toast-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toast\toast-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toast\toast-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toast\toast-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toast\toast.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toast\toast.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toast\toast.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toast\toast.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toolbar\toolbar-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toolbar\toolbar-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toolbar\toolbar-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toolbar\toolbar-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toolbar\toolbar.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toolbar\toolbar.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\toolbar\toolbar.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\toolbar\toolbar.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tooltip\tooltip-default-theme.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tooltip\tooltip-default-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tooltip\tooltip-default-theme.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tooltip\tooltip-default-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tooltip\tooltip.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tooltip\tooltip.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\tooltip\tooltip.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\tooltip\tooltip.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\whiteframe\whiteframe.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\whiteframe\whiteframe.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\modules\js\whiteframe\whiteframe.min.css">
+      <PackagePath>www\bower_components\angular-material\modules\js\whiteframe\whiteframe.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\angular-csp.css">
+      <PackagePath>www\bower_components\angular\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap-theme.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap-theme.min.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap.min.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\css\font-awesome.css">
+      <PackagePath>www\bower_components\fontawesome\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\css\font-awesome.min.css">
+      <PackagePath>www\bower_components\fontawesome\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\material-app\src\material-app.css">
+      <PackagePath>www\bower_components\material-app\src\material-app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\spec\lib\jasmine-1.2.0\jasmine.css">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\jasmine.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular-material\LICENSE">
+      <PackagePath>www\bower_components\angular-material\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\LICENSE">
+      <PackagePath>www\bower_components\bootstrap\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\material-app\LICENSE">
+      <PackagePath>www\bower_components\material-app\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\angular\angular.min.js.gzip">
+      <PackagePath>www\bower_components\angular\angular.min.js.gzip</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\bower_components\fontawesome\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\bower_components\fontawesome\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\bower_components\fontawesome\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\bower_components\fontawesome\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\fonts\fontawesome-webfont.woff2">
+      <PackagePath>www\bower_components\fontawesome\fonts\fontawesome-webfont.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\grunt\.jshintrc">
+      <PackagePath>www\bower_components\bootstrap\grunt\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\.jshintrc">
+      <PackagePath>www\bower_components\bootstrap\js\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\grunt\sauce_browsers.yml">
+      <PackagePath>www\bower_components\bootstrap\grunt\sauce_browsers.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\js\.jscsrc">
+      <PackagePath>www\bower_components\bootstrap\js\.jscsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\.csslintrc">
+      <PackagePath>www\bower_components\bootstrap\less\.csslintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\alerts.less">
+      <PackagePath>www\bower_components\bootstrap\less\alerts.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\badges.less">
+      <PackagePath>www\bower_components\bootstrap\less\badges.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\bootstrap.less">
+      <PackagePath>www\bower_components\bootstrap\less\bootstrap.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\breadcrumbs.less">
+      <PackagePath>www\bower_components\bootstrap\less\breadcrumbs.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\button-groups.less">
+      <PackagePath>www\bower_components\bootstrap\less\button-groups.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\buttons.less">
+      <PackagePath>www\bower_components\bootstrap\less\buttons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\carousel.less">
+      <PackagePath>www\bower_components\bootstrap\less\carousel.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\close.less">
+      <PackagePath>www\bower_components\bootstrap\less\close.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\code.less">
+      <PackagePath>www\bower_components\bootstrap\less\code.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\component-animations.less">
+      <PackagePath>www\bower_components\bootstrap\less\component-animations.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\dropdowns.less">
+      <PackagePath>www\bower_components\bootstrap\less\dropdowns.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\forms.less">
+      <PackagePath>www\bower_components\bootstrap\less\forms.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\glyphicons.less">
+      <PackagePath>www\bower_components\bootstrap\less\glyphicons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\grid.less">
+      <PackagePath>www\bower_components\bootstrap\less\grid.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\input-groups.less">
+      <PackagePath>www\bower_components\bootstrap\less\input-groups.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\jumbotron.less">
+      <PackagePath>www\bower_components\bootstrap\less\jumbotron.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\labels.less">
+      <PackagePath>www\bower_components\bootstrap\less\labels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\list-group.less">
+      <PackagePath>www\bower_components\bootstrap\less\list-group.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\media.less">
+      <PackagePath>www\bower_components\bootstrap\less\media.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\alerts.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\alerts.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\background-variant.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\background-variant.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\border-radius.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\border-radius.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\buttons.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\buttons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\center-block.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\center-block.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\clearfix.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\clearfix.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\forms.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\forms.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\gradients.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\gradients.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\grid-framework.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\grid-framework.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\grid.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\grid.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\hide-text.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\hide-text.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\image.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\image.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\labels.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\labels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\list-group.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\list-group.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\nav-divider.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\nav-divider.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\nav-vertical-align.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\nav-vertical-align.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\opacity.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\opacity.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\pagination.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\pagination.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\panels.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\panels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\progress-bar.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\progress-bar.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\reset-filter.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\reset-filter.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\resize.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\resize.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\responsive-visibility.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\responsive-visibility.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\size.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\size.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\tab-focus.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\tab-focus.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\table-row.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\table-row.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\text-emphasis.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\text-emphasis.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\text-overflow.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\text-overflow.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\mixins\vendor-prefixes.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\vendor-prefixes.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\modals.less">
+      <PackagePath>www\bower_components\bootstrap\less\modals.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\navbar.less">
+      <PackagePath>www\bower_components\bootstrap\less\navbar.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\navs.less">
+      <PackagePath>www\bower_components\bootstrap\less\navs.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\normalize.less">
+      <PackagePath>www\bower_components\bootstrap\less\normalize.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\pager.less">
+      <PackagePath>www\bower_components\bootstrap\less\pager.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\pagination.less">
+      <PackagePath>www\bower_components\bootstrap\less\pagination.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\panels.less">
+      <PackagePath>www\bower_components\bootstrap\less\panels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\popovers.less">
+      <PackagePath>www\bower_components\bootstrap\less\popovers.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\print.less">
+      <PackagePath>www\bower_components\bootstrap\less\print.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\progress-bars.less">
+      <PackagePath>www\bower_components\bootstrap\less\progress-bars.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\responsive-embed.less">
+      <PackagePath>www\bower_components\bootstrap\less\responsive-embed.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\responsive-utilities.less">
+      <PackagePath>www\bower_components\bootstrap\less\responsive-utilities.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\scaffolding.less">
+      <PackagePath>www\bower_components\bootstrap\less\scaffolding.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\tables.less">
+      <PackagePath>www\bower_components\bootstrap\less\tables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\theme.less">
+      <PackagePath>www\bower_components\bootstrap\less\theme.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\thumbnails.less">
+      <PackagePath>www\bower_components\bootstrap\less\thumbnails.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\tooltip.less">
+      <PackagePath>www\bower_components\bootstrap\less\tooltip.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\type.less">
+      <PackagePath>www\bower_components\bootstrap\less\type.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\utilities.less">
+      <PackagePath>www\bower_components\bootstrap\less\utilities.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\variables.less">
+      <PackagePath>www\bower_components\bootstrap\less\variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\bootstrap\less\wells.less">
+      <PackagePath>www\bower_components\bootstrap\less\wells.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\animated.less">
+      <PackagePath>www\bower_components\fontawesome\less\animated.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\bordered-pulled.less">
+      <PackagePath>www\bower_components\fontawesome\less\bordered-pulled.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\core.less">
+      <PackagePath>www\bower_components\fontawesome\less\core.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\fixed-width.less">
+      <PackagePath>www\bower_components\fontawesome\less\fixed-width.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\font-awesome.less">
+      <PackagePath>www\bower_components\fontawesome\less\font-awesome.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\icons.less">
+      <PackagePath>www\bower_components\fontawesome\less\icons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\larger.less">
+      <PackagePath>www\bower_components\fontawesome\less\larger.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\list.less">
+      <PackagePath>www\bower_components\fontawesome\less\list.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\mixins.less">
+      <PackagePath>www\bower_components\fontawesome\less\mixins.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\path.less">
+      <PackagePath>www\bower_components\fontawesome\less\path.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\rotated-flipped.less">
+      <PackagePath>www\bower_components\fontawesome\less\rotated-flipped.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\stacked.less">
+      <PackagePath>www\bower_components\fontawesome\less\stacked.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\less\variables.less">
+      <PackagePath>www\bower_components\fontawesome\less\variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\material-app\src\material-app.less">
+      <PackagePath>www\bower_components\material-app\src\material-app.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\css\index.less">
+      <PackagePath>www\css\index.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\.gitignore">
+      <PackagePath>www\bower_components\fontawesome\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\.npmignore">
+      <PackagePath>www\bower_components\fontawesome\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\fonts\FontAwesome.otf">
+      <PackagePath>www\bower_components\fontawesome\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\font-awesome.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\font-awesome.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_animated.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_animated.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_bordered-pulled.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_bordered-pulled.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_core.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_core.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_fixed-width.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_fixed-width.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_icons.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_icons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_larger.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_larger.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_list.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_list.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_mixins.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_path.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_path.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_rotated-flipped.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_rotated-flipped.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_stacked.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_stacked.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\fontawesome\scss\_variables.scss">
+      <PackagePath>www\bower_components\fontawesome\scss\_variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\bower_components\jquery\MIT-LICENSE.txt">
+      <PackagePath>www\bower_components\jquery\MIT-LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\spec.html">
+      <PackagePath>www\spec.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\.pgbomit">
+      <PackagePath>www\res\.pgbomit</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\res\screen\windows-phone\screen-portrait.jpg">
+      <PackagePath>www\res\screen\windows-phone\screen-portrait.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\www\spec\lib\jasmine-1.2.0\MIT.LICENSE">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\MIT.LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lee\testingApp\platforms\windows\build\windows80\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
